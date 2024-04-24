@@ -1,0 +1,89 @@
+
+body {
+font-family: 'Courier New', monospace;
+font-size: 20px;
+margin: 0;
+padding: 0;
+color: #fff;
+background-color: #2E8B57;
+}
+
+p {
+font-size: 22px;
+}
+
+header {
+background-color: #d3efde;
+color: #fff;
+text-align: center;
+padding: 20px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+nav {
+background-color: #AFE1AF;
+text-align: center;
+padding: 10px 0;
+}
+
+nav a {
+color: #000000;
+text-decoration: none;
+padding: 10px 20px;
+margin: 0 10px;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+background-color: #004d00;
+}
+
+footer {
+background-color: #d3efde;
+color: #000000;
+text-align: center;
+padding: 20px 0;
+}
+
+/* Common styles */
+body {
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #2E8B57;
+}
+
+p {
+    font-size: 22px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    p {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    p {
+        font-size: 24px;
+    }
+}
+

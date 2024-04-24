@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="../images/icons8-car-24.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+     font-family: 'Courier New', monospace;
+     font-size: 20px;
+     margin: 0;
+     padding: 0;
+     color: #fff;
+     background-color: #2E8B57;
+ }
+ 
+ p {
+     font-size: 22px;
+ }
+ 
+ header {
+     background-color: #d3efde;
+     color: #fff;
+     text-align: center;
+     padding: 20px 0;
+ }
+ 
+ .container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 20px;
+ }
+ 
+ nav {
+     background-color: #AFE1AF;
+     text-align: center;
+     padding: 10px 0;
+ }
+ 
+ nav a {
+     color: #000000;
+     text-decoration: none;
+     padding: 10px 20px;
+     margin: 0 10px;
+     border-radius: 5px;
+     transition: background-color 0.3s ease;
+ }
+ 
+ nav a:hover {
+     background-color: #004d00;
+ }
+ 
+ footer {
+     background-color: #d3efde;
+     color: #000000;
+     text-align: center;
+     padding: 20px 0;
+ }
+ 
+ img.full-width {
+            width: 100vw; 
+            display: block; 
+        }
+   </style>
+ 
+</head>
+<body>
+    <header>
+        <h1>Tally Autoshop</h1>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="services.html">Services</a>
+        </div>
+    </nav>
+    <a href="https://www.google.com/maps/dir//501+North+Monroe+Street,+Tallahassee,+FL+32301/@30.4471833,-84.362579,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x88ecf57789b0a81f:0xe053383276884aaf!2m2!1d-84.280241!2d30.4471983?entry=ttu"><img src="../images/map.png"></a>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to contact us using the form below:</p>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 AutoShop | Email: <a href="mailto:autoshop@gmail.com">autoshop@gmail.com</a> | Phone: <a href="tel:+11234567890">123-456-7890</a></p>
+    </footer>
+</body>
+</html>
